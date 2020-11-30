@@ -1,9 +1,10 @@
 from fastapi import FastAPI,Request,HTTPException
 import requests,json,logging
-from MyCrab import Telegram
+from app.MyCrab import Telegram
 from configparser import ConfigParser as CF
-from MsgClass import tgUpdate, lnUpdate , LINE_MSG
+from app.MsgClass import tgUpdate, lnUpdate , LINE_MSG
 from typing import List
+
 #from linebot import LineBotApi ,WebhookHandler
 #from linebot.exceptions import InvalidSignatureError
 #from linebot.models import TextMessage,TextSendMessage,MessageEvent

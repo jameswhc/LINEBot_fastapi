@@ -1,6 +1,7 @@
 from time import sleep
-from MyCrab import MYSITE,crab
+from app.MyCrab import MYSITE,crab
 
+__all__ = ['BOOK']
 class BOOK(crab):
     '''
     本模組用來檢查小說網站是否有更新資料
